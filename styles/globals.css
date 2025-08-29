@@ -1,0 +1,44 @@
+@config "../tailwind.config.ts";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 10 16 26; /* #0A101A */
+  --foreground: 248 255 254; /* #F8FFFE - Breeze White */
+  --primary: 0 123 154; /* #007B9A - Aqaba Azure */
+  --secondary: 64 224 208; /* #40E0D0 - Zephyr Teal */
+  --accent: 255 127 127; /* #FF7F7F - Coral Accent */
+  --muted: 192 192 192; /* #C0C0C0 - Wind Silver */
+  --card: 23 31 45; /* A slightly lighter dark for cards */
+  --border: 64 224 208; /* Zephyr Teal for border, alpha applied in Tailwind */
+  --radius: 0.5rem;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+}
+
+/* For custom scrollbar aesthetics */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: rgb(var(--background));
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(var(--secondary));
+  border-radius: 10px;
+  border: 2px solid rgb(var(--background));
+}
+
+/* Marquee animation for client logos */
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+.animate-marquee {
+  animation: marquee 60s linear infinite;
+}
