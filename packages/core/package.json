@@ -1,0 +1,20 @@
+{
+  "name": "@zephyr/core",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "type-check": "tsc --noEmit",
+    "lint": "echo 'lint: @zephyr/core'"
+  },
+  "dependencies": {
+    "@zephyr/config": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "~5.8.2"
+  }
+}
