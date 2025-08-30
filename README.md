@@ -1,7 +1,7 @@
 # 🌪️ Zephyr AI - Cinematic Monorepo Platform
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" alt="Zephyr Banner" width="100%" />
+ alt="Zephyr Banner" width="100%" />
 </div>
 
 > **A full-stack, AI-ready, cinematic monorepo scaffold built for the next generation of intelligent applications.**
