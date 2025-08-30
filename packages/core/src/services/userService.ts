@@ -4,8 +4,8 @@ import type { User, UserPreferences } from '../entities/user';
 const mockUsers: User[] = [
   {
     id: '1',
-    email: 'admin@zephyrai.jo',
-    name: 'Zephyr Admin',
+    email: 'admin@sawaliq.com',
+    name: 'SawaLiQ Admin',
     avatar: '/avatars/admin.jpg',
     createdAt: new Date('2024-01-01'),
     updatedAt: new Date(),

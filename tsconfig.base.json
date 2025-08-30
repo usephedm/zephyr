@@ -26,10 +26,10 @@
     /* Path mapping */
     "baseUrl": ".",
     "paths": {
-      "@zephyr/config": ["./packages/config/src"],
-      "@zephyr/core": ["./packages/core/src"],
-      "@zephyr/ui": ["./packages/ui/src"],
-      "@zephyr/telemetry": ["./packages/telemetry/src"]
+      "@sawaliq/config": ["./packages/config/src"],
+      "@sawaliq/core": ["./packages/core/src"],
+      "@sawaliq/ui": ["./packages/ui/src"],
+      "@sawaliq/telemetry": ["./packages/telemetry/src"]
     }
   },
   "include": ["packages/*/src/**/*", "apps/*/src/**/*", "apps/*/*.ts"],

@@ -14,8 +14,8 @@ const Footer: React.FC = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-lg font-bold text-foreground">Zephyr AI Agency</h3>
-            <p className="mt-2 text-sm">Gentle Winds, Explosive Results.</p>
+            <h3 className="text-lg font-bold text-foreground">SawaLiQ AI</h3>
+            <p className="mt-2 text-sm">Visionary AI Leadership by Yousof Ahmed Al-Malkawi.</p>
           </div>
           <div>
             <h4 className="font-semibold text-foreground">Quick Links</h4>
@@ -29,7 +29,7 @@ const Footer: React.FC = () => {
             <h4 className="font-semibold text-foreground">Contact</h4>
             <ul className="mt-2 space-y-1 text-sm">
               <li>Aqaba, Jordan</li>
-              <li>contact@zephyrai.jo</li>
+              <li>contact@sawaliq.com</li>
             </ul>
           </div>
           <div>
@@ -45,7 +45,7 @@ const Footer: React.FC = () => {
           </div>
         </div>
         <div className="text-center mt-8 text-sm">
-          &copy; {new Date().getFullYear()} Zephyr AI Agency. All Rights Reserved.
+          &copy; {new Date().getFullYear()} SawaLiQ AI - CEO Yousof Ahmed Al-Malkawi. All Rights Reserved.
         </div>
       </div>
     </footer>
