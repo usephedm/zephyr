@@ -1,5 +1,5 @@
 {
-  "name": "@zephyr/web",
+  "name": "@sawaliq/web",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -10,10 +10,10 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
-    "@zephyr/config": "workspace:*",
-    "@zephyr/core": "workspace:*",
-    "@zephyr/ui": "workspace:*",
-    "@zephyr/telemetry": "workspace:*",
+    "@sawaliq/config": "workspace:*",
+    "@sawaliq/core": "workspace:*",
+    "@sawaliq/ui": "workspace:*",
+    "@sawaliq/telemetry": "workspace:*",
     "next": "^14.0.4",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",

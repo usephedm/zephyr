@@ -14,9 +14,9 @@ export type Env = z.infer<typeof envSchema>;
 // Application configuration
 export const appConfig = {
   app: {
-    name: 'Zephyr AI',
+    name: 'SawaLiQ AI',
     version: '1.0.0',
-    description: 'AI-ready cinematic platform',
+    description: 'AI-ready cinematic platform by Yousof Ahmed Al-Malkawi',
   },
   api: {
     baseUrl: process.env['API_URL'] ?? 'http://localhost:3000',

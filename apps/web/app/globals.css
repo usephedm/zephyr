@@ -6,11 +6,11 @@
   --background: 10 16 26; /* #0A101A - Deep ocean */
   --foreground: 248 255 254; /* #F8FFFE - Breeze white */
   --primary: 0 123 154; /* #007B9A - Aqaba azure */
-  --secondary: 64 224 208; /* #40E0D0 - Zephyr teal */
+  --secondary: 64 224 208; /* #40E0D0 - SawaLiQ teal */
   --accent: 255 127 127; /* #FF7F7F - Coral accent */
   --muted: 192 192 192; /* #C0C0C0 - Wind silver */
   --card: 23 31 45; /* Slightly lighter dark for cards */
-  --border: 64 224 208; /* Zephyr teal for borders */
+  --border: 64 224 208; /* SawaLiQ teal for borders */
 }
 
 * {

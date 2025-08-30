@@ -89,8 +89,8 @@ const Home: React.FC = () => {
 
   return (
     <div className="space-y-24 sm:space-y-32">
-      {/* Hero Section */}
-      <section ref={heroRef} className="text-center relative min-h-[80vh] flex flex-col items-center justify-center pt-16 overflow-hidden">
+      {/* Enhanced Hero Section with CEO Profile */}
+      <section ref={heroRef} className="text-center relative min-h-[95vh] flex flex-col items-center justify-center pt-16 overflow-hidden">
         <motion.div
             className="absolute inset-0 -z-20"
             style={{
@@ -100,50 +100,141 @@ const Home: React.FC = () => {
                 y: backgroundY
             }}
         />
-        <div className="absolute inset-0 -z-10 bg-background/70"></div>
+        <div className="absolute inset-0 -z-10 bg-gradient-to-b from-background/90 via-background/70 to-background/90"></div>
+        
+        {/* CEO Profile Badge */}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.6 }}
+          className="mb-8"
+        >
+          <div className="inline-flex items-center gap-4 bg-glass-dark backdrop-blur-xl border border-secondary/30 rounded-full px-6 py-3 mb-6">
+            <div className="w-12 h-12 bg-gradient-to-br from-secondary to-accent rounded-full flex items-center justify-center text-white font-bold text-lg">
+              YM
+            </div>
+            <div className="text-left">
+              <div className="text-sm font-semibold text-secondary">CEO & Founder</div>
+              <div className="text-xs text-muted">Yousof Ahmed Al-Malkawi</div>
+            </div>
+            <a 
+              href="https://www.linkedin.com/in/yousof-almalkawi" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 bg-[#0077b5] hover:bg-[#005885] transition-colors px-4 py-2 rounded-full text-white text-sm font-medium"
+            >
+              <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+              </svg>
+              Connect
+            </a>
+          </div>
+        </motion.div>
+
         <motion.h1
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          className="text-4xl sm:text-6xl lg:text-7xl font-extrabold"
+          transition={{ duration: 0.8, delay: 0.2 }}
+          className="text-5xl sm:text-7xl lg:text-8xl font-extrabold leading-tight"
         >
           <span className="text-transparent bg-clip-text bg-gradient-to-br from-foreground to-muted">{t('heroTitle')}</span>
           <br />
-          <span className="text-transparent bg-clip-text bg-gradient-to-br from-secondary to-accent">{t('heroSubtitle')}</span>
+          <span className="text-transparent bg-clip-text bg-gradient-to-br from-secondary via-accent to-primary">{t('heroSubtitle')}</span>
         </motion.h1>
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
-          className="mt-6 max-w-2xl mx-auto text-lg text-muted"
-        >
-          {t('heroDescription')}
-        </motion.p>
+        
+        {/* Enhanced Description */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className="mt-10"
+          className="mt-8 max-w-4xl mx-auto"
+        >
+          <p className="text-xl text-muted leading-relaxed mb-4">
+            {t('heroDescription')}
+          </p>
+          <div className="flex flex-wrap justify-center gap-4 text-sm text-secondary">
+            <span className="bg-secondary/10 px-3 py-1 rounded-full border border-secondary/20">🚀 AI Innovation Leader</span>
+            <span className="bg-secondary/10 px-3 py-1 rounded-full border border-secondary/20">🌍 Global Technology Pioneer</span>
+            <span className="bg-secondary/10 px-3 py-1 rounded-full border border-secondary/20">🇯🇴 Jordan's Tech Visionary</span>
+          </div>
+        </motion.div>
+
+        {/* Enhanced CTA Buttons */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.6 }}
+          className="mt-12 flex flex-col sm:flex-row gap-4 items-center"
         >
             <Link to="/contact">
                 <motion.button 
-                    className="bg-gradient-to-r from-primary to-secondary text-white font-semibold px-8 py-4 rounded-full text-lg hover:shadow-xl hover:shadow-secondary/40 transition-shadow"
-                    whileHover={{ scale: 1.05 }}
+                    className="bg-gradient-to-r from-primary via-secondary to-accent text-white font-bold px-10 py-5 rounded-full text-lg hover:shadow-2xl hover:shadow-secondary/50 transition-all group relative overflow-hidden"
+                    whileHover={{ scale: 1.05, y: -2 }}
                     whileTap={{ scale: 0.95 }}
                 >
-                    {t('heroButton')}
+                    <span className="relative z-10">{t('heroButton')}</span>
+                    <div className="absolute inset-0 bg-gradient-to-r from-accent to-primary opacity-0 group-hover:opacity-100 transition-opacity"></div>
                 </motion.button>
             </Link>
+            <motion.a
+              href="https://www.linkedin.com/in/yousof-almalkawi"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-3 px-8 py-4 border-2 border-secondary/50 rounded-full text-secondary hover:bg-secondary/10 transition-all font-semibold"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+              </svg>
+              Connect on LinkedIn
+            </motion.a>
         </motion.div>
+
+        {/* Floating Elements for Visual Enhancement */}
+        <div className="absolute inset-0 pointer-events-none">
+          <motion.div
+            className="absolute top-1/4 left-10 w-2 h-2 bg-secondary rounded-full opacity-60"
+            animate={{ y: [-10, 10, -10], x: [-5, 5, -5] }}
+            transition={{ duration: 6, repeat: Infinity }}
+          />
+          <motion.div
+            className="absolute top-1/3 right-16 w-1 h-1 bg-accent rounded-full opacity-80"
+            animate={{ y: [-15, 15, -15], x: [10, -10, 10] }}
+            transition={{ duration: 4, repeat: Infinity }}
+          />
+          <motion.div
+            className="absolute bottom-1/4 left-1/4 w-3 h-3 bg-primary rounded-full opacity-40"
+            animate={{ rotate: [0, 360], scale: [1, 1.2, 1] }}
+            transition={{ duration: 8, repeat: Infinity }}
+          />
+        </div>
       </section>
 
-      {/* Client Logos */}
-      <section className="py-12">
-        <h2 className="text-center text-sm font-semibold text-muted uppercase tracking-wider">
-          Powering Transformation for Global Industry Leaders
-        </h2>
-        <div className="mt-8">
-            <ClientMarquee />
+      {/* Premium Client Logos */}
+      <section className="py-16 relative">
+        <div className="absolute inset-0 bg-gradient-to-r from-transparent via-secondary/5 to-transparent"></div>
+        <div className="relative">
+          <motion.h2 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center text-lg font-bold text-secondary uppercase tracking-wider mb-4"
+          >
+            Powering Digital Transformation for Global Industry Leaders
+          </motion.h2>
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.2 }}
+            className="text-center text-muted mb-12 max-w-2xl mx-auto"
+          >
+            Trusted by Fortune 500 companies and innovative startups worldwide under the visionary leadership of CEO Yousof Ahmed Al-Malkawi
+          </motion.p>
+          <div className="mt-8">
+              <ClientMarquee />
+          </div>
         </div>
       </section>
 

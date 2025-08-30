@@ -1,15 +1,15 @@
-// Design tokens following the existing Zephyr brand
+// Design tokens following the SawaLiQ brand
 export const tokens = {
   colors: {
     // Primary brand colors (CSS variables for runtime theming)
     background: 'rgb(10, 16, 26)', // #0A101A - Deep ocean
     foreground: 'rgb(248, 255, 254)', // #F8FFFE - Breeze white
     primary: 'rgb(0, 123, 154)', // #007B9A - Aqaba azure
-    secondary: 'rgb(64, 224, 208)', // #40E0D0 - Zephyr teal
+    secondary: 'rgb(64, 224, 208)', // #40E0D0 - SawaLiQ teal
     accent: 'rgb(255, 127, 127)', // #FF7F7F - Coral accent
     muted: 'rgb(192, 192, 192)', // #C0C0C0 - Wind silver
     card: 'rgb(23, 31, 45)', // Slightly lighter dark for cards
-    border: 'rgb(64, 224, 208)', // Zephyr teal for borders
+    border: 'rgb(64, 224, 208)', // SawaLiQ teal for borders
     
     // Semantic colors
     success: 'rgb(34, 197, 94)',

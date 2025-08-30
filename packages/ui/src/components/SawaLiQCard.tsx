@@ -2,7 +2,7 @@ import React from 'react';
 import { motion, HTMLMotionProps, Easing } from 'framer-motion';
 import { clsx } from 'clsx';
 
-interface ZephyrCardProps extends Omit<HTMLMotionProps<'div'>, 'children'> {
+interface SawaLiQCardProps extends Omit<HTMLMotionProps<'div'>, 'children'> {
   children: React.ReactNode;
   variant?: 'default' | 'glass' | 'elevated';
   size?: 'sm' | 'md' | 'lg';
@@ -10,7 +10,7 @@ interface ZephyrCardProps extends Omit<HTMLMotionProps<'div'>, 'children'> {
   className?: string;
 }
 
-export const ZephyrCard: React.FC<ZephyrCardProps> = ({
+export const SawaLiQCard: React.FC<SawaLiQCardProps> = ({
   children,
   variant = 'default',
   size = 'md',

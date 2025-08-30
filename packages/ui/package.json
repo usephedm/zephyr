@@ -1,5 +1,5 @@
 {
-  "name": "@zephyr/ui",
+  "name": "@sawaliq/ui",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -9,7 +9,7 @@
     "build": "tsc",
     "dev": "tsc --watch",
     "type-check": "tsc --noEmit",
-    "lint": "echo 'lint: @zephyr/ui'"
+    "lint": "echo 'lint: @sawaliq/ui'"
   },
   "dependencies": {
     "react": "^19.1.1",

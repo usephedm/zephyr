@@ -1,5 +1,5 @@
 {
-  "name": "@zephyr/telemetry",
+  "name": "@sawaliq/telemetry",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -9,7 +9,7 @@
     "build": "tsc",
     "dev": "tsc --watch",
     "type-check": "tsc --noEmit",
-    "lint": "echo 'lint: @zephyr/telemetry'"
+    "lint": "echo 'lint: @sawaliq/telemetry'"
   },
   "dependencies": {
     "pino": "^8.17.0",

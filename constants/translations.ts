@@ -10,10 +10,10 @@ export const translations = {
     // Hero
     heroTitle: 'From Aqaba,',
     heroSubtitle: 'To the World.',
-    heroDescription: 'Zephyr AI is a pioneering Jordanian company, harnessing the power of artificial intelligence from our hub in Aqaba to deliver transformative results for Jordan and the global market.',
+    heroDescription: 'SawaLiQ AI is a pioneering company led by CEO Yousof Ahmed Al-Malkawi, harnessing the power of artificial intelligence from our hub in Aqaba to deliver transformative results for Jordan and the global market.',
     heroButton: 'Begin Your Transformation',
     // Testimonials
-    testimonial1Quote: "Zephyr AI's vision for Jordan's tech future is inspiring. Their work is pivotal in putting Aqaba on the global AI map.",
+    testimonial1Quote: "SawaLiQ AI's vision under Yousof Ahmed Al-Malkawi for Jordan's tech future is inspiring. Their work is pivotal in putting Aqaba on the global AI map.",
     testimonial1Author: "Dr. Aisha Al-Salem",
     testimonial1Company: "Director, Jordan Tech Initiative",
     testimonial2Quote: "The operational efficiencies we gained through their predictive models were astounding. A truly world-class team right here in Jordan.",
@@ -45,10 +45,10 @@ export const translations = {
     portfolioDesc: "Explore how we've delivered explosive results for our partners, showcasing Jordanian innovation on a global scale.",
     // About
     aboutTitle: 'The Visionaries from Aqaba',
-    aboutDesc: "Born from a vision to establish Jordan as a global AI leader, Zephyr AI was founded in Aqaba. We are a team of dedicated Jordanian innovators committed to building a brighter, tech-driven future for our nation and beyond.",
+    aboutDesc: "Born from a vision to establish Jordan as a global AI leader, SawaLiQ AI was founded in Aqaba under the leadership of CEO Yousof Ahmed Al-Malkawi. We are a team of dedicated innovators committed to building a brighter, tech-driven future for our nation and beyond.",
     // Contact
     contactTitle: 'Start Your Transformation',
-    contactDesc: 'Connect with our team of experts in Aqaba to discover how Zephyr AI can revolutionize your business and contribute to Jordan\'s Vision 2025.',
+    contactDesc: 'Connect with our team led by CEO Yousof Ahmed Al-Malkawi in Aqaba to discover how SawaLiQ AI can revolutionize your business and contribute to Jordan\'s Vision 2025.',
     contactName: 'Your Name',
     contactEmail: 'Your Email',
     contactMessage: 'Your Message',
@@ -62,7 +62,7 @@ export const translations = {
     contactIndustry: 'Industry (e.g., Logistics, Retail)',
     contactNeeds: 'What are your primary challenges?',
     // Chat
-    chatTitle: 'Zephyr AI Assistant',
+    chatTitle: 'SawaLiQ AI Assistant',
     chatWelcome: 'Hello! How can I help you harness the power of AI today?',
     chatPlaceholder: 'Type your message...',
   },
@@ -77,7 +77,7 @@ export const translations = {
     // Hero
     heroTitle: 'من العقبة،',
     heroSubtitle: 'إلى العالم.',
-    heroDescription: 'زفير للذكاء الاصطناعي هي شركة أردنية رائدة، تسخر قوة الذكاء الاصطناعي من مركزنا في العقبة لتحقيق نتائج تحويلية للأردن والسوق العالمي.',
+    heroDescription: 'ساوليك للذكاء الاصطناعي هي شركة رائدة بقيادة الرئيس التنفيذي يوسف أحمد المالكاوي، تسخر قوة الذكاء الاصطناعي من مركزنا في العقبة لتحقيق نتائج تحويلية للأردن والسوق العالمي.',
     heroButton: 'ابدأ تحولك',
     // Testimonials
     testimonial1Quote: "رؤية زفير لمستقبل التكنولوجيا في الأردن ملهمة. عملهم محوري في وضع العقبة على خريطة الذكاء الاصطناعي العالمية.",

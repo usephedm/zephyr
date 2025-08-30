@@ -1,5 +1,5 @@
 {
-  "name": "@zephyr/config",
+  "name": "@sawaliq/config",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -9,7 +9,7 @@
     "build": "tsc",
     "dev": "tsc --watch",
     "type-check": "tsc --noEmit",
-    "lint": "echo 'lint: @zephyr/config'"
+    "lint": "echo 'lint: @sawaliq/config'"
   },
   "dependencies": {
     "zod": "^3.22.4"

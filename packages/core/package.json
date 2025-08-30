@@ -1,5 +1,5 @@
 {
-  "name": "@zephyr/core",
+  "name": "@sawaliq/core",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -9,10 +9,10 @@
     "build": "tsc",
     "dev": "tsc --watch",
     "type-check": "tsc --noEmit",
-    "lint": "echo 'lint: @zephyr/core'"
+    "lint": "echo 'lint: @sawaliq/core'"
   },
   "dependencies": {
-    "@zephyr/config": "workspace:*"
+    "@sawaliq/config": "workspace:*"
   },
   "devDependencies": {
     "typescript": "~5.8.2"

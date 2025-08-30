@@ -1,12 +1,16 @@
-# 🌪️ Zephyr AI - Cinematic Monorepo Platform
+# 🌊 SawaLiQ AI - Cinematic Monorepo Platform
 
 <div align="center">
- alt="Zephyr Banner" width="100%" />
+ <img src="https://img.shields.io/badge/CEO-Yousof%20Ahmed%20Al--Malkawi-blue?style=for-the-badge&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/yousof-almalkawi" alt="CEO Yousof Ahmed Al-Malkawi" />
+ <br/>
+ <a href="https://www.linkedin.com/in/yousof-almalkawi" target="_blank">
+   <img src="https://img.shields.io/badge/LinkedIn-Yousof%20AlMalkawi-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Profile" />
+ </a>
 </div>
 
-> **A full-stack, AI-ready, cinematic monorepo scaffold built for the next generation of intelligent applications.**
+> **A full-stack, AI-ready, cinematic monorepo scaffold built for the next generation of intelligent applications by CEO Yousof Ahmed Al-Malkawi.**
 
-Zephyr transforms from a simple React application into a sophisticated, production-ready monorepo featuring Apple/Tesla-grade visual design, performance optimization, and AI integration capabilities.
+SawaLiQ transforms from a simple React application into a sophisticated, production-ready monorepo featuring Apple/Tesla-grade visual design, performance optimization, and AI integration capabilities under the visionary leadership of Yousof Ahmed Al-Malkawi.
 
 ## ✨ Architecture Overview
 
@@ -50,7 +54,7 @@ Visit [http://localhost:3000](http://localhost:3000) to experience the cinematic
 ### Cinematic Visual Experience
 - **Shader-powered backgrounds** using react-three-fiber for dynamic, GPU-accelerated visuals
 - **Glassmorphic design system** with depth, transparency, and motion
-- **Zephyr color palette**: Deep ocean (#0A101A), Zephyr teal (#40E0D0), Coral accent (#FF7F7F)
+- **SawaLiQ color palette**: Deep ocean (#0A101A), SawaLiQ teal (#40E0D0), Coral accent (#FF7F7F)
 - **Framer Motion** animations with performance-optimized motion primitives
 
 ### Performance & Accessibility
@@ -61,37 +65,37 @@ Visit [http://localhost:3000](http://localhost:3000) to experience the cinematic
 
 ## 📦 Package Architecture
 
-### `@zephyr/config`
+### `@sawaliq/config`
 Environment validation and application configuration management.
 ```typescript
-import { validateEnv, appConfig } from '@zephyr/config'
+import { validateEnv, appConfig } from '@sawaliq/config'
 
 const env = validateEnv(process.env)
 ```
 
-### `@zephyr/core`
+### `@sawaliq/core`
 Domain entities and business logic services.
 ```typescript
-import { UserService, type User } from '@zephyr/core'
+import { UserService, type User } from '@sawaliq/core'
 
 const userService = new UserService()
 const user = await userService.getUser(id)
 ```
 
-### `@zephyr/ui`
+### `@sawaliq/ui`
 Design system with glassmorphic components and motion primitives.
 ```typescript
-import { ZephyrCard, motionPresets } from '@zephyr/ui'
+import { SawaLiQCard, motionPresets } from '@sawaliq/ui'
 
-<ZephyrCard variant="glass" interactive>
+<SawaLiQCard variant="glass" interactive>
   Content with cinematic effects
-</ZephyrCard>
+</SawaLiQCard>
 ```
 
-### `@zephyr/telemetry`
+### `@sawaliq/telemetry`
 Structured logging and performance monitoring.
 ```typescript
-import { loggers, measureAsync } from '@zephyr/telemetry'
+import { loggers, measureAsync } from '@sawaliq/telemetry'
 
 const result = await measureAsync('api-call', () => fetchData())
 loggers.api.info({ result }, 'API call completed')
@@ -162,8 +166,8 @@ export class NewService {
 - [x] Cross-package type safety
 
 ### ✅ Design System
-- [x] Design tokens with Zephyr brand colors
-- [x] Glassmorphic ZephyrCard component
+- [x] Design tokens with SawaLiQ brand colors
+- [x] Glassmorphic SawaLiQCard component
 - [x] Motion primitives and animation presets
 - [x] Responsive Tailwind configuration
 
@@ -238,5 +242,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 <div align="center">
   <strong>Built with ❤️ for the future of AI applications</strong>
   <br />
-  <em>Zephyr AI Platform - Where performance meets beauty</em>
+  <em>SawaLiQ AI Platform - Where performance meets beauty under Yousof Ahmed Al-Malkawi's leadership</em>
 </div>

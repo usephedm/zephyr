@@ -4,7 +4,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 
 // Simplified cinematic background using CSS gradients and animation
-export function ZephyrShaderBackground() {
+export function SawaLiQShaderBackground() {
   return (
     <div className="fixed inset-0 -z-10 overflow-hidden">
       {/* Animated gradient background */}
